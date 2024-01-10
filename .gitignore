@@ -1,0 +1,11 @@
+__pycache__
+cache/
+reports/
+.ipynb_checkpoints/
+.DS_STORE
+.vscode/
+.vs/
+secret.py
+credentials.json
+prompt.txt
+.env

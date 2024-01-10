@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "trade-gpt"
+version = "0.1.0"
+description = "Trade equities with informed prompt engineering to a GPT model"
+authors = ["Michael Samon <mjsamon@icloud.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+tda-api = "^1.6.0"
+yfinance = "^0.2.29"
+arrow = "^1.2.3"
+webdriver-manager = "^4.0.0"
+openai = "^0.28.0"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
