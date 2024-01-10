@@ -40,6 +40,7 @@ def main(prompt_only=False):
     ]
 
     for symbol in symbols:
+        print(f'Getting insights for {symbol}...')
         datum = DataContext(sources, cache=False)
         insights_context = InsightContext(datum, [symbol], insights)
 

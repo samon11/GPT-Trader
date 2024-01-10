@@ -34,6 +34,8 @@ cd tradegpt
 python main.py AAPL
 ```
 
+All runs are logged to `./tradegpt/reports/`.
+
 ## Configuration
 
 The most important files for configuration are [main.py](tradegpt/main.py) and [prompt.py](tradegpt/prompt.py). The former is the entrypoint for the bot, and the latter contains the prompt templates for the GPT-3 API.
