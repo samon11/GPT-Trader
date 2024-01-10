@@ -40,7 +40,7 @@ All runs are logged to `./tradegpt/reports/`.
 
 The most important files for configuration are [main.py](tradegpt/main.py) and [prompt.py](tradegpt/prompt.py). The former is the entrypoint for the bot, and the latter contains the prompt templates for the GPT-3 API.
 
-- `main.py`: Update insights, data sources, model, and prompt selection. For a full list of insights, see [insights/](tradegpt/insights/). For a full list of data sources, see [sources/](tradegpt/sources/).
+- `main.py`: Update insights, data sources, model, and prompt selection. For a full list of insights, see [insights/](tradegpt/data/insights/). For a full list of data sources, see [sources/](tradegpt/data/sources/).
 - `prompt.py`: Update prompt templates. `main.py` replaces the string `$C` with insights at runtime. 
 
 ## Contributing
